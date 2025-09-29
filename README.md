@@ -1,3 +1,5 @@
-Make sure you have python installed
+# Disclaimer
+Everything except the script code is mine. I used ChatGPT to write this program, given my logic flow and other involved tools
 
-And that you run "pip install pandas pillow openpyxl"
+# Miscellanous Info for use
+Before running, install proper dependencies (via pip): pandas, pillow, openpyxl
