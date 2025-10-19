@@ -6,7 +6,7 @@ import os
 spreadsheet = "Tier List Maker.xlsx"          # or "Tier List Maker.csv"
 character_img_folder = "characters/"          # folder with character PNGs
 output_folder = "output/"
-background_path = "background.png"            # must be 200x200
+background_path = "background 2.png"            # must be 200x200
 font_path = "Tolyer Bold no.1.ttf"            # or another TTF font
 font_size = 46                                 # larger size for visibility
 canvas_size = (200, 200)
