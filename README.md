@@ -1,13 +1,21 @@
-# Disclaimer
-Everything except the script code is mine. I used ChatGPT to write the script, given my logic flow and other involved tools
+# TierListMaker Project
 
-# TierListMaker
-Every esport ends up with a community. Smash Ultimate, though a special esport in the grand scheme of things, has a large fanbase. And sometimes, local groups of players who attend the same events will form, and they want to engage in social trends. One of these is the "Group Tier List", which is popular on twitter. This is used to rank groups of people in varying subject matter, but the typical trend is that you rank a lot of important people within a given "region." The website "tiermaker.com" provides the platform to generate such a tier list, but the work of creating an icon for every single person while keeping them all neat is VERY tiresome.
+## Purpose
+Automate the creation of clean, consistent icon sets for community “Group Tier Lists” in the Super Smash Bros. Ultimate scene, eliminating the manual effort required to build icons for large regional player groups.
 
-My goal was to fix this issue by coming up with a script that would automate the generation of these icons. You'd still need something to draw from, so I geared this program to read off of a .xlsx file. That way, the user can generate a list of icons depicting a group of players with the least amount of effort possible.
+## Approach
+- Designed a script-driven workflow that generates TierMaker-ready icons from structured data.  
+- Uses a `.xlsx` input sourced from Google Sheets, allowing users to manage player data efficiently.  
+- Integrated dropdown-based character selection to prevent naming mismatches and data errors.  
+- Prioritized minimal user effort while maintaining visual consistency across all generated icons.
 
-## Room for growth
-As smash ultimate has a wide variety of characters and color palettes for those characters, this program has the potential for a lot of expression. I did not write in the room for that level of customization, and as such this output of this program is rather minimal, despite being fully functional.
+## Product
+A utility that converts a simple spreadsheet into a complete, organized set of TierMaker icons, enabling Smash Ultimate communities to quickly create and share polished regional tier lists without tedious manual asset creation.
 
-## Miscellaneous info for use
-Before running, install proper dependencies (via pip): pandas, pillow, openpyxl
+## Disclaimer
+All components except the script code are my own work. The script itself was written using ChatGPT, based on my logic flow and tool requirements.
+
+## Room for Growth
+- Support for multiple characters per player  
+- Support for multiple costumes per character  
+- Expanded flexibility to better reflect common competitive playstyles and preferences
